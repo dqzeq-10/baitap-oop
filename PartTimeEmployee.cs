@@ -15,12 +15,12 @@ namespace baitapOOP
             this.workingHours = workingHours;
         }
 
-        public override int calculateSalary()
+        public override int calculateSalary_135()
         {
             return workingHours * PaymentPerHour;
         }
 
-        public override string getName()
+        public override string getName_135()
         {
             return Name;
         }
