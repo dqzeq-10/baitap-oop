@@ -12,12 +12,12 @@ namespace baitapOOP
         {
         }
 
-        public override int calculateSalary()
+        public override int calculateSalary_135()
         {
             return 8 * PaymentPerHour;
         }
 
-        public override string getName()
+        public override string getName_135()
         {
             return Name;
         }
