@@ -16,7 +16,7 @@ namespace baitapOOP
             Console.WriteLine("Salary per day: " + employee1_135.calculateSalary_135());
 
             IEmployee employee2_135 = new FullTimeEmployee("Linh", 65000);
-            Console.WriteLine("Name: " + employee2_135.getName());
+            Console.WriteLine("Name: " + employee2_135.getName_135());
             Console.WriteLine("Salary per day: " + employee2_135.calculateSalary_135());
             Console.ReadKey();
         }
